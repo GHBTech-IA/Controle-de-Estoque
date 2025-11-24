@@ -17,14 +17,14 @@ Siga o assistente (recomendado: autenticação via web). Após autenticar, `gh
 - PowerShell (Windows):
 
 ```powershell
-cd C:\Projetos\Teste-01
+cd C:\Projetos\Controle-de-Estoque
 .\scripts\create_github_repo.ps1 -RepoName MeuRepoNome -Visibility public
 ```
 
 - Bash (Linux/macOS / WSL):
 
 ```bash
-cd /c/Projetos/Teste-01
+cd /c/Projetos/Controle-de-Estoque
 ./scripts/create_github_repo.sh MeuRepoNome public
 ```
 
