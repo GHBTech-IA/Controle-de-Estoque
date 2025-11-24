@@ -18,3 +18,5 @@ Como aplicar (duas opções):
 Observações de permissões:
 - Para rodar DDL via API/programaticamente é necessário usar credenciais com privilégios (service_role).
 - Nunca exponha `SUPABASE_SERVICE_ROLE_KEY` no frontend.
+
+

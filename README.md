@@ -29,3 +29,5 @@ Backend proposto:
 Observações
 - Senhas não são armazenadas em texto claro; usam `hashlib.pbkdf2_hmac` com salt.
 - Recomenda-se instalar `customtkinter` atualizado antes de executar.
+
+

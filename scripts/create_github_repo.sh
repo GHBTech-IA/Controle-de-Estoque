@@ -32,3 +32,5 @@ echo "Creating GitHub repo '$REPO_NAME' (visibility: $VISIBILITY) and pushing...
 gh repo create "$REPO_NAME" --"$VISIBILITY" --source=. --remote=origin --push
 
 echo "Done. Repository created and pushed."
+
+

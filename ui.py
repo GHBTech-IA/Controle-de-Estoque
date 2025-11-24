@@ -97,3 +97,5 @@ class App(ctk.CTk):
             self.show_login()
         else:
             messagebox.showerror("Erro", "Usuário já existe")
+
+

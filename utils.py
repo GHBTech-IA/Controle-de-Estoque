@@ -15,3 +15,4 @@ def verify_password(password: str, stored: str, iterations: int = 200_000) -> bo
     dk = b[16:]
     new = hashlib.pbkdf2_hmac("sha256", password.encode("utf-8"), salt, iterations)
     return hmac.compare_digest(dk, new)
+

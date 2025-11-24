@@ -33,3 +33,5 @@ def update_product(product_id: int, payload: ProdutoUpdate):
     if resp.error:
         raise HTTPException(status_code=500, detail=str(resp.error))
     return resp.data[0] if resp.data else {}
+
+

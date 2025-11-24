@@ -21,3 +21,5 @@ Endpoints iniciais:
 - `POST /produtos` — cria produto (insere no Supabase)
 
 Nota: não exponha `SUPABASE_SERVICE_ROLE_KEY` no frontend; backend deve usar a service role para ações administrativas.
+
+

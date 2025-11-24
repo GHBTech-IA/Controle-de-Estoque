@@ -9,3 +9,5 @@ def get_supabase():
         logger.error('Supabase URL or SERVICE_ROLE_KEY not configured')
         raise RuntimeError('Supabase not configured')
     return create_client(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY)
+
+

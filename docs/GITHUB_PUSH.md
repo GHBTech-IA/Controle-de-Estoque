@@ -62,3 +62,5 @@ Após isso, você pode clonar usando SSH (`git@github.com:usuario/repo.git`) e f
 
 6) Recomendação para execuções automáticas (migrations, deploy)
 - Configure CI (GitHub Actions) com Secrets (`DATABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`) e crie workflow para rodar migrações e deploy (segue modelo se precisar).
+
+

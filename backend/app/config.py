@@ -10,3 +10,5 @@ SUPABASE_SERVICE_ROLE_KEY = os.getenv('SUPABASE_SERVICE_ROLE_KEY')
 if not SUPABASE_URL or not SUPABASE_SERVICE_ROLE_KEY:
     # allow runtime to handle missing keys, but warn
     pass
+
+

@@ -21,3 +21,5 @@ def create_movimentacao(payload: dict):
     if resp.error:
         raise HTTPException(status_code=500, detail=str(resp.error))
     return resp.data[0]
+
+

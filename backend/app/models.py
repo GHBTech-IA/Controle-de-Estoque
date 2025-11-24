@@ -21,3 +21,5 @@ class ProdutoUpdate(BaseModel):
     quantidade: Optional[int]
     unidade: Optional[str]
     codigo: Optional[str]
+
+

@@ -21,3 +21,5 @@ def health():
 app.include_router(products.router)
 app.include_router(fornecedores.router)
 app.include_router(movimentacoes.router)
+
+

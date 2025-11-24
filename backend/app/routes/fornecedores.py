@@ -30,3 +30,5 @@ def update_fornecedor(fornecedor_id: str, payload: dict):
     if resp.error:
         raise HTTPException(status_code=500, detail=str(resp.error))
     return resp.data[0] if resp.data else {}
+
+

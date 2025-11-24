@@ -49,3 +49,4 @@ def get_user(username: str):
     row = c.fetchone()
     conn.close()
     return dict(row) if row else None
+
